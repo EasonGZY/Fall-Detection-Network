@@ -1,8 +1,9 @@
 # Fall-Detection-Network
 
 ### Introduction
-This repo provides demo Pytorch implementation of the paper A Video-based Fall Detection Network by
-Spatio-temporal Joint-point Model on Edge Devices. We extract and filtrate the time-series joint-point features to capture the spatial and temporal dynamics, which are subsequently fed to the tensorized spatio-temporal joint-point model to predict falls.
+
+This repo provides demo Pytorch implementation of the paper *A Video-based Fall Detection Network by*
+*Spatio-temporal Joint-point Model on Edge Devices.* We extract and filtrate the time-series joint-point features to capture the spatial and temporal dynamics, which are subsequently fed to the tensorized spatio-temporal joint-point model to predict falls.
 
 ### Requirements
 
@@ -38,4 +39,3 @@ By running the following code, we can attain the model file by optimizing the tr
 ```python
 python MULT_TT.py
 ```
-
