@@ -32,7 +32,8 @@ Then run the extracting codes for training.
 python demo_ectract.py
 ```
 
-After getting the time-series joint-point features, we can feed them to the tensorized LSTM, which can been seen in [TT_LSTM/MULT_TT.py](TT_LSTM/MULT_TT.py), which can also attain the model file by optimizing the training parameters .
+After getting the time-series joint-point features, we can feed them to the tensorized LSTM, which can been seen in [TT_LSTM/MULT_TT.py](TT_LSTM/MULT_TT.py).
+By running the following code, we can attain the model file by optimizing the training parameters.
 
 ```python
 python MULT_TT.py
